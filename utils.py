@@ -81,8 +81,8 @@ async def baixar_pdf(deal_id):
     user_id = deal['ASSIGNED_BY_ID']
     contact_id = deal['CONTACT_ID']
 
-    username = "rafael.marins@multisete.com"
-    password = "12bc24AABB$"
+    username = "email@gmail.com"
+    password = "xxx"
     auth = HTTPBasicAuth(username, password)
     # Diretório para salvar os arquivos
     save_directory = os.path.join(os.getcwd(), "arquivos_salvos")
